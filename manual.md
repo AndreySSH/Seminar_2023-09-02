@@ -10,6 +10,7 @@
 ## 2. Работа с ветками
 * git branch - выводит список веток репозитория
 * git branch <branch_name> - создать новую ветвь с именем branch_name
-* git checkout -b <branch_name> - создать новую ветвь и сразу на нее переключиться
 * git checkout <branch_name> - переключение на другую ветвь
+* git checkout -b <branch_name> - переключиться на вновьсозданную ветвь <branch_name>
+
 ## 3. Работа с Github
