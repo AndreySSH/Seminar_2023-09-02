@@ -10,3 +10,4 @@
 * git branch <branch_name> - создать новую ветвь с именем branch_name
 * git branch -b <branch_name> - создать новую ветвь и сразу на нее переключиться
 * git checkout <branch_name> - переключение на другую ветвь
+## 3.
