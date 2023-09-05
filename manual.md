@@ -6,6 +6,7 @@
 * git log --graph - добавляет график правок и слияний
 * git add <filename> - добавить файл в индекс Git
 * git commit -am "text" - создать коммит, т.е. передает изменения из индекса в репозиторий
+* git commit --amend -m "text" - изменить комментарий активного коммита
 * git checkout <hash> - переключение на другой коммит
 * git reset HEAD~ - удаление последнего коммита из репозитория
 * git reset --hard HEAD~ - удаление последнего коммита и откат изменений
@@ -13,5 +14,5 @@
 * git branch - выводит список веток репозитория
 * git branch <branch_name> - создать новую ветвь с именем branch_name
 * git checkout <branch_name> - переключение на другую ветвь
-* git checkout -b <branch_name> - переключиться на вновьсозданную ветвь <branch_name>
+* git checkout -b <branch_name> - переключиться на вновь созданную ветвь <branch_name>
 ## 3. Работа с Github
