@@ -22,6 +22,6 @@
 
 ## 3. Работа с Github
 
-* git remote add origin <url>
-* git branch -M main
-* git push -u origin main
+* git remote add <name> <url> - связать локальный репозиторий с удаленным репозиторием по адресу <url>. Используется общепринятое стандартное обозначение удаленного репозитория origin (<name> = origin).
+* git branch -M main - переименовать текущую активную ветку в main
+* git push -u origin main - 
