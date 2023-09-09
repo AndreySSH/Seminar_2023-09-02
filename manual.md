@@ -1,5 +1,7 @@
 # Краткое руководство по  Git
+
 ## 1. Основные команды
+
 * git init - создает репозиторий
 * git status - выводит информацию о состоянии репозитория
 * git log - отображает лог коммитов и слияний
@@ -10,9 +12,16 @@
 * git checkout <hash> - переключение на другой коммит
 * git reset HEAD~ - удаление последнего коммита из репозитория
 * git reset --hard HEAD~ - удаление последнего коммита и откат изменений
+
 ## 2. Работа с ветками
+
 * git branch - выводит список веток репозитория
 * git branch <branch_name> - создать новую ветвь с именем branch_name
 * git checkout <branch_name> - переключение на другую ветвь
 * git checkout -b <branch_name> - переключиться на вновь созданную ветвь <branch_name>
+
 ## 3. Работа с Github
+
+* git remote add origin <url>
+* git branch -M main
+* git push -u origin main
